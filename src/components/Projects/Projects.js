@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-
 import chatify from "../../Assets/Projects/chatify.png";
+import evh from "../../Assets/Projects/EVH.png";
 
 
 
@@ -29,7 +29,17 @@ function Projects() {
               demoLink="https://chatify-49.web.app/"
             />
           </Col>
-
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={evh}
+              isBlog={false}
+              title="E.V.H"
+              description="
+Electric Charger Hub Manager is a desktop app designed to assist technicians with the setup, repair, and maintenance of electric vehicle charging hubs. It offers guided installation steps, real-time diagnostics, and quick troubleshooting tools to ensure efficient service and optimal hub performance."
+              ghLink="https://github.com/oookbaaa/PI_java/tree/User"
+            />
+          </Col>
          
 
           
