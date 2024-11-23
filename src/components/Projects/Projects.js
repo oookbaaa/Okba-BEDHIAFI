@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import chatify from "../../Assets/Projects/chatify.png";
 import evh from "../../Assets/Projects/EVH.png";
+import YC from "../../Assets/Projects/YCDirectory.png";
 
 
 
@@ -21,12 +22,12 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={YC}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="YC-directory"
+              description="YC-Directory is designed for entrepreneurs and startup enthusiasts. It serves as a platform where users can pitch their startup ideas, connect with other entrepreneurs, and gain visibility in the entrepreneurial ecosystem."
+              ghLink="https://github.com/oookbaaa/FirstProject"
+              demoLink="https://first-project-tau-six.vercel.app/"
             />
           </Col>
           
