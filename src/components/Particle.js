@@ -1,10 +1,18 @@
-import React from "react";
-import Particles from "react-tsparticles";
+import React from 'react';
+import Particles from 'react-tsparticles';
 
 function Particle() {
   return (
     <Particles
       id="tsparticles"
+      style={{
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        width: '100%',
+        height: '100%',
+        zIndex: 0,
+      }}
       params={{
         particles: {
           number: {
@@ -19,7 +27,7 @@ function Particle() {
             opacity: 0.03,
           },
           move: {
-            direction: "right",
+            direction: 'right',
             speed: 0.05,
           },
           size: {
@@ -37,7 +45,7 @@ function Particle() {
           events: {
             onclick: {
               enable: true,
-              mode: "push",
+              mode: 'push',
             },
           },
           modes: {
