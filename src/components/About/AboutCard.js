@@ -11,9 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">BEDHIAFI Okba </span>
             from <span className="purple"> TUNISIA.</span>
             <br />
-            <br />
-            I am currently employed as a software developer.
-            <br />
+            
             <br />
             I am currently pursuing a Cycle Ingénieur program at ESPRIT, specializing in engineering with a strong focus on practical applications in computer science and technology.
             <br />
