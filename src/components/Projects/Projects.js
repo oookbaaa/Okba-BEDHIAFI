@@ -8,6 +8,7 @@ import Skilly from '../../Assets/Projects/skilly.jpg';
 import Efoire from '../../Assets/Projects/efoire.jpg';
 import Homy from '../../Assets/Projects/homy.png';
 import Timessquare from '../../Assets/Projects/times square.png';
+import Tbf from '../../Assets/Projects/tbf.png';
 
 // Project data structure with detailed information
 const projectsData = [
@@ -185,6 +186,32 @@ const projectsData = [
       'Fluid Animations',
       'Contextual State Management',
       'Modular Components',
+    ],
+    isBlog: false,
+  },
+  {
+    id: 'tbf',
+    title: 'TBF',
+    description:
+      ' Developed a comprehensive web platform for managing the Tunisian Bridge Federation(TBF), centralizing user administration, club and license management, and organizing tournaments and events. Implemented a modern Next.js interface with secure authentication and specialized dashboards for administrators and club managers.',
+    detailedDescription:
+      ' Developed a comprehensive web platform for managing the Tunisian Bridge Federation(TBF), centralizing user administration, club and license management, and organizing tournaments and events. Implemented a modern Next.js interface with secure authentication and specialized dashboards for administrators and club managers.',
+    imgPath: Tbf,
+    images: [Tbf], // Add more images here when available
+    demoLink: 'https://app.ftbridge.org/',
+    ghLink: null,
+    technologies: [ 'Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'shadcn/ui', 'TanStack Query',
+      'React Hook Form', 'Chart.js', 'AWS S3'],
+    features: [
+      'Club Management',
+      'License Management',
+      'Tournament Management',
+      'Admin Dashboard',
+      'Event Management',
+      'User Management',
+      'Team Collaboration',
+      'Responsive Design',
+      'Secure Authentication',
     ],
     isBlog: false,
   },
