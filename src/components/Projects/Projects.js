@@ -9,6 +9,11 @@ import Efoire from '../../Assets/Projects/efoire.jpg';
 import Homy from '../../Assets/Projects/homy.png';
 import Timessquare from '../../Assets/Projects/times square.png';
 import Tbf from '../../Assets/Projects/tbf.png';
+import AC from '../../Assets/Projects/AC.png';
+import AC2 from '../../Assets/Projects/AC2.png';
+import AC1 from '../../Assets/Projects/AC1.png';
+
+
 
 // Project data structure with detailed information
 const projectsData = [
@@ -215,6 +220,33 @@ const projectsData = [
     ],
     isBlog: false,
   },
+  {
+    id: 'access-control',
+    title: 'Access Control',
+    description:
+      ' Developed a full-stack platform for access and human resources management, centralizing facility control (buildings, doors, zones, systems), organizational structure management (companies, subsidiaries, departments), user and role management, as well as employee, schedule, leave, and audit log management. Implemented a secure NestJS API and a modern Next.js dashboard.',
+    detailedDescription:
+      ' Developed a full-stack platform for access and human resources management, centralizing facility control (buildings, doors, zones, systems), organizational structure management (companies, subsidiaries, departments), user and role management, as well as employee, schedule, leave, and audit log management. Implemented a secure NestJS API and a modern Next.js dashboard.',
+    imgPath: AC,
+    images: [AC, AC2, AC1], // Add more images here when available
+    ghLink: 'https://github.com/oookbaaa/AC-FRONT',
+    demoLink: 'https://access-control-three.vercel.app/',
+    technologies: ['NestJS (TypeScript)', 'TypeORM', 'PostgreSQL', 'Next.js', 'React', 'TanStack Query', 'Tailwind CSS', 'shadcn/ui', 'Docker', 'AWS S3'],
+    features: [
+      'Facility Control',
+      'Organizational Structure Management',
+      'User Management',
+      'Role Management',
+      'Employee Management',
+      'Schedule Management',
+      'Leave Management',
+      'Audit Log Management',
+      'Responsive Design',
+      'Secure Authentication',
+    ],
+    isBlog: false,
+  },
+
 ];
 
 function Projects() {
