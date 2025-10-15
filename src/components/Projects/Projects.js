@@ -21,7 +21,7 @@ const projectsData = [
     imgPath: YC,
     images: [YC], // Add more images here when available
     ghLink: 'https://github.com/oookbaaa/FirstProject',
-    demoLink: 'https://first-project-tau-six.vercel.app/',
+    demoLink: 'https://pitch-your-startup-new.vercel.app',
     technologies: ['Next.js', 'JavaScript', 'shadcn', 'Tailwind CSS', 'Sentry' , 'Sanity'],
     features: [
       'User Authentication',
