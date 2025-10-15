@@ -6,6 +6,8 @@ import evh from '../../Assets/Projects/EVH.png';
 import YC from '../../Assets/Projects/YCDirectory.png';
 import Skilly from '../../Assets/Projects/skilly.jpg';
 import Efoire from '../../Assets/Projects/efoire.jpg';
+import Homy from '../../Assets/Projects/homy.png';
+import Timessquare from '../../Assets/Projects/times square.png';
 
 // Project data structure with detailed information
 const projectsData = [
@@ -20,7 +22,7 @@ const projectsData = [
     images: [YC], // Add more images here when available
     ghLink: 'https://github.com/oookbaaa/FirstProject',
     demoLink: 'https://first-project-tau-six.vercel.app/',
-    technologies: ['Next.js', 'JavaScript', 'shadcn', 'Tailwind CSS'],
+    technologies: ['Next.js', 'JavaScript', 'shadcn', 'Tailwind CSS', 'Sentry' , 'Sanity'],
     features: [
       'User Authentication',
       'Startup Idea Submission',
@@ -53,7 +55,7 @@ const projectsData = [
   },
   {
     id: 'skilly',
-    title: 'Skilly',
+    title: 'SKILLY',
     description:
       'Skilly is a web-based platform that enables individuals to exchange skills and learn from each other, guided by an AI mentor. The system includes features such as: Skill Marketplace, Real-time Collaboration Tools, Payment Integration, User Notifications, Feedback Mechanism, Gamification & Progress Tracking. This project empowered me to apply technologies like Node.js, nest.js, next.js, shadcn, and AI-based recommendation systems to create a real-world learning ecosystem.',
     detailedDescription:
@@ -62,7 +64,17 @@ const projectsData = [
     images: [Skilly], // Add more images here when available
     ghLink: 'https://github.com/oookbaaa/SKILLY-Front',
     demoLink: null,
-    technologies: ['Node.js', 'Nest.js', 'React', 'ShadCN', 'AI/ML', 'Tailwind CSS','MongoDB Atlas','Socket.io', 'Docker'],
+    technologies: [
+      'Node.js',
+      'Nest.js',
+      'React',
+      'ShadCN',
+      'AI/ML',
+      'Tailwind CSS',
+      'MongoDB Atlas',
+      'Socket.io',
+      'Docker',
+    ],
     features: [
       'Skill Marketplace',
       'AI Mentorship',
@@ -101,6 +113,78 @@ const projectsData = [
       'Admin Control Panel',
       'Delivery Management',
       'Responsive Design',
+    ],
+    isBlog: false,
+  },
+
+  {
+    id: 'homy',
+    title: 'HOMY',
+    description:
+      ' Homy is a pet safety platform that uses QR code tags to help reunite lost pets with theirowners. Pet owners create profiles, generate unique QR codes, and attach tags to their pets’ colars. Anyone who finds a lost pet can scan the code with a phone camera to view the pet’s details and contact the owner also he can share the location. The platform includes user authentication, pet profile management, QR code generation, email notifications, and an admin dashboard for order management. It features a responsive interface with glassmorphism effects and smooth animations. ',
+    detailedDescription:
+      'Homy is a pet safety platform that uses QR code tags to help reunite lost pets with theirowners. Pet owners create profiles, generate unique QR codes, and attach tags to their pets’ colars. Anyone who finds a lost pet can scan the code with a phone camera to view the pet’s details and contact the owner also he can share the location. The platform includes user authentication, pet profile management, QR code generation, email notifications, and an admin dashboard for order management. It features a responsive interface with glassmorphism effects and smooth animations.',
+    imgPath: Homy,
+    images: [Homy], // Add more images here when available
+    ghLink: 'https://github.com/oookbaaa/Homy',
+    demoLink: 'https://homy-pet.vercel.app/',
+    technologies: [
+      'Next.js',
+      'React',
+      'TypeScript',
+      'Tailwind CSS',
+      'PostgreSQL',
+      'Prisma',
+      'Nodemailer',
+      'QRCode.js',
+      'Vercel Analytics',
+      'AWS S3',
+    ],
+    features: [
+      'Pet Profile Management',
+      'User Authentication',
+      'QR Code Generation',
+      'Email Notifications',
+      'Location Sharing',
+      'Admin Dashboard',
+      'Responsive Design',
+    ],
+    isBlog: false,
+  },
+  {
+    id: 'timesquare',
+    title: 'Times Square',
+    description:
+      'Developed a modern web platform for the "Time Square" coffee shop, featuring an interactive showcase site with complete digital menu management, dynamic category navigation (coffees, hot/cold drinks, pastries), advanced search functionalities, image carousels, customer testimonials, and a responsive interface optimized for mobile and desktop. Implemented a Next.js architecture with modular components, contextual state management, and fluid animations.',
+    detailedDescription:
+      'Developed a modern web platform for the "Time Square" coffee shop, featuring an interactive showcase site with complete digital menu management, dynamic category navigation (coffees, hot/cold drinks, pastries), advanced search functionalities, image carousels, customer testimonials, and a responsive interface optimized for mobile and desktop. Implemented a Next.js architecture with modular components, contextual state management, and fluid animations.',
+    imgPath: Timessquare,
+    images: [Timessquare], // Add more images here when available
+    ghLink: 'https://github.com/oookbaaa/TimesSquare',
+    demoLink: 'https://times-square.vercel.app/',
+    technologies: [
+      'Next.js',
+      'React',
+      'TypeScript',
+      'Tailwind CSS',
+      'DaisyUI',
+      'Motion (Framer Motion)',
+      'Swiper.js',
+      'Heroicons',
+      'Vercel Analytics',
+      'Husky',
+      'Commitizen',
+    ],
+    features: [
+      'Complete Digital Menu Management',
+      'Dynamic Category Navigation',
+      'Advanced Search Functionality',
+      'Image Carousel',
+      'Customer Testimonials',
+      'Responsive Design',
+      'Fluid Animations',
+      'Contextual State Management',
+      'Modular Components',
     ],
     isBlog: false,
   },

@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Particle from '../Particle';
-import pdfEN from '../../Assets/CV CANAD V-EN.pdf';
+import pdfEN from '../../Assets/CV canad OKBA EN.pdf';
 import pdfFR from '../../Assets/CV CANAD V-FR.pdf';
 import { AiOutlineDownload } from 'react-icons/ai';
 import { Document, Page, pdfjs } from 'react-pdf';
