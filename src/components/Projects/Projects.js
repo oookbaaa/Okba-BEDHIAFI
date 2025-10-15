@@ -19,7 +19,7 @@ const projectsData = [
     detailedDescription:
       'YC-Directory is a comprehensive platform built for the entrepreneurial community. It provides a space where budding entrepreneurs can showcase their startup ideas, get feedback from peers, and connect with potential co-founders or investors. The platform features user authentication, idea submission and voting systems, networking capabilities, and a clean, intuitive interface that encourages community engagement.',
     imgPath: YC,
-    images: [YC], // Add more images here when available
+    images: [YC],  // Add more images here when available
     ghLink: 'https://github.com/oookbaaa/FirstProject',
     demoLink: 'https://pitch-your-startup-new.vercel.app',
     technologies: ['Next.js', 'JavaScript', 'shadcn', 'Tailwind CSS', 'Sentry' , 'Sanity'],
