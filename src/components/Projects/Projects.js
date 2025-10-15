@@ -9,9 +9,9 @@ import Efoire from '../../Assets/Projects/efoire.jpg';
 import Homy from '../../Assets/Projects/homy.png';
 import Timessquare from '../../Assets/Projects/times square.png';
 import Tbf from '../../Assets/Projects/tbf.png';
-import AC from '../../Assets/Projects/AC.png';
-import AC2 from '../../Assets/Projects/AC2.png';
-import AC1 from '../../Assets/Projects/AC1.png';
+import AC from '../../Assets/Projects/AC.jpeg';
+import AC2 from '../../Assets/Projects/AC2.jpeg';
+import AC1 from '../../Assets/Projects/AC1.jpeg';
 
 
 
