@@ -69,13 +69,14 @@ const projectsData = [
     imgPath: Skilly,
     images: [Skilly], // Add more images here when available
     ghLink: 'https://github.com/oookbaaa/SKILLY-Front',
-    demoLink: null,
+    demoLink: 'skilly-exchange.vercel.app',
     technologies: [
       'Node.js',
       'Nest.js',
       'React',
       'ShadCN',
-      'AI/ML',
+      'Redis',
+      'AI/ML',  
       'Tailwind CSS',
       'MongoDB Atlas',
       'Socket.io',
