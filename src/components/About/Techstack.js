@@ -16,12 +16,15 @@ import {
   SiRedis,
   SiFirebase,
   SiNextdotjs,
-  SiSolidity,
   SiPostgresql,
   SiNestjs,
   SiJenkins,
   SiTypescript,
   SiSentry,
+  SiFlutter,
+  SiSymphony,
+  SiPhp,
+  SiLaravel,
 } from 'react-icons/si';
 
 function Techstack() {
@@ -38,9 +41,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
@@ -83,6 +83,18 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMysql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFlutter />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSymphony />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPhp />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiLaravel />
       </Col>
     </Row>
   );

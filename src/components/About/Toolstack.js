@@ -11,7 +11,7 @@ import {
   SiNotion,
   SiDocker,
   SiTrello,
-  SiBitbucket,
+  SiGitlab,
 } from 'react-icons/si';
 
 function Toolstack() {
@@ -33,6 +33,9 @@ function Toolstack() {
         <SiGithub />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiGitlab />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiJira />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -46,9 +49,6 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiTrello />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiBitbucket />
       </Col>
     </Row>
   );
