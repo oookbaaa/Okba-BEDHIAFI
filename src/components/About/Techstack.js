@@ -22,7 +22,7 @@ import {
   SiTypescript,
   SiSentry,
   SiFlutter,
-  SiSymphony,
+  SiSymfony,
   SiPhp,
   SiLaravel,
 } from 'react-icons/si';
@@ -88,7 +88,7 @@ function Techstack() {
         <SiFlutter />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSymphony />
+        <SiSymfony />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPhp />
