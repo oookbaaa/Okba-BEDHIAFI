@@ -12,11 +12,58 @@ import Tbf from '../../Assets/Projects/tbf.png';
 import AC from '../../Assets/Projects/AC.jpeg';
 import AC2 from '../../Assets/Projects/AC2.jpeg';
 import AC1 from '../../Assets/Projects/AC1.jpeg';
-
-
+import TrustGym from '../../Assets/Projects/TRUSTGYM.png';
 
 // Project data structure with detailed information
 const projectsData = [
+  {
+    id: 'trustgym',
+    title: 'TRUSTGYM',
+    description:
+      'Gym Management & Access Control Platform — built an end-to-end gym management ecosystem with separate interfaces for staff (admin/cashier) and members, plus access control and an AI assistant. (Software Engineer) 2026 | Full Time | Tunisia',
+    detailedDescription:
+      'TRUSTGYM is a comprehensive gym management and access control platform designed for multi-site fitness operations. The ecosystem includes a web admin application for gym operators, a member-facing mobile app, and hardware-integrated door access control. The admin dashboard covers gym and member management, coach scheduling, subscriptions, payments, door/access control, inventory, invoices, cash register operations, KPIs, and real-time dashboards — with an integrated AI documentation assistant powered by RAG (OpenAI + pgvector). The member mobile app supports authentication, session browsing, slot reservation, live occupancy tracking, peak-hour analytics, and profile management. Access control is implemented via ZKTeco and Hikvision devices through Python APIs, a NestJS bridge, and PM2/ngrok deployment; door ENTRY/EXIT events feed live occupancy and capacity status across all gyms. The modular NestJS backend provides role-based authentication (admin/member JWT), WebSockets for real-time updates, AWS integrations, and a RAG-based AI assistant for staff.',
+    imgPath: TrustGym,
+    images: [TrustGym],
+    ghLink: null,
+    demoLink: 'https://trustgym-client.vercel.app/',
+    technologies: [
+      'Next.js',
+      'React',
+      'React Native (Expo)',
+      'NestJS',
+      'TypeORM',
+      'PostgreSQL',
+      'pgvector',
+      'OpenAI (RAG)',
+      'TanStack Query',
+      'Socket.io',
+      'AWS S3',
+      'AWS SES',
+      'Docker',
+      'Python',
+      'ZKTeco APIs',
+      'Hikvision APIs',
+      'PM2',
+    ],
+    features: [
+      'Web Admin Dashboard',
+      'Member Mobile App',
+      'Gym & Member Management',
+      'Coach & Subscription Management',
+      'Payments & Cash Register',
+      'Door Access Control (ZKTeco/Hikvision)',
+      'Live Occupancy & Capacity Tracking',
+      'Inventory & Invoice Management',
+      'Real-time KPIs & Dashboards',
+      'AI Documentation Assistant (RAG)',
+      'Role-based Authentication (JWT)',
+      'WebSocket Real-time Updates',
+      'Peak-hour Analytics',
+      'Slot Reservation System',
+    ],
+    isBlog: false,
+  },
   {
     id: 'yc-directory',
     title: 'YC-directory',
